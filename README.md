@@ -46,13 +46,13 @@ fitnessapp/
 - **Data Storage**: `localStorage`
 - **Charting**: `recharts`
 - **Deployment**: GitHub Pages (`gh-pages`)
-🤝 Author
+## 🤝 Author
 Sibiraj R
 💻 GitHub: Sibi-2006
-- 📌 Notes
+- ## 📌 Notes
 Data will reset if browser storage is cleared.
 
 Future version could include Firebase for real-time DB or authentication 🔥
 
-📃 License
+## 📃 License
 This project is licensed under the MIT License — feel free to use, fork, and contribute
