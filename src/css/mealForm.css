@@ -1,0 +1,35 @@
+.mealForm {
+    background-color: #001329d6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    border: 2px #4da0ff solid;
+    box-shadow: 3px 3px 10px #001329d6;
+    border-radius: 20px;
+}
+.mealForm input{
+    width: 350px;
+    font-size: 1.1rem;
+    margin: 10px;
+    outline: none;
+    border: 2px solid #001329d6;
+    border-radius: 20px;
+    padding: 5px 10px;
+    height: 40px;
+    background-color: #94c7e6;
+    color: black;
+}
+.mealForm input::placeholder{
+    color: #000;
+}
+
+@media (max-width:650px){
+    .mealForm input{
+        width: 250px;
+        padding: 3px 7px;
+        height: 35px;
+    }
+}

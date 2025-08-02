@@ -1,0 +1,26 @@
+.calender{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.calender input{
+    color: #4da0ff;
+    background-color: #001329d6;
+    outline: none;
+    border: 2px solid #4da0ff;
+    height: 40px;
+    width: 150px;
+    font-size: 1.2rem;
+    border-radius: 20px;
+    padding: 5px 10px;
+    transition: .5s;
+}
+.calender input:hover,:focus{
+    color: #001329d6;
+    background-color: #4da0ff;
+    border: 2px solid #001329d6;
+    box-shadow: 3px 3px 10px #001329d6;
+    transform: scale(1.1);
+    margin: 10px;
+}

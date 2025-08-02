@@ -1,0 +1,77 @@
+.Workout-con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.WorkoutForm{
+    background-color: #00395cc3;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    border: 2px solid ;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px #00101ac3;
+}
+.WorkoutForm h1{
+    text-align: center;
+    color: #83d0ffc3;
+    text-shadow: 3px 3px 10px #83d0ffc3;
+}
+.WorkoutForm input{
+    font-size: 1.3rem;
+    padding: 5px 10px;
+    outline: none;;
+    border-radius: 20px;
+    border: #002135 solid 2px;
+    color: #002135;
+    background-color: #83d0ffc3 ;
+}
+.WorkoutForm input::placeholder{
+    color:#002135 ;
+}
+.WorkoutForm textarea{
+    background-color:#83d0ffc3 ;
+    border:  2px solid;
+    border-radius: 10px;
+    color:#002135 ;
+    font-size: 1rem;
+    padding: 5px 10px;
+    outline: none;
+}
+.WorkoutForm button{
+    height: 50px;
+    width: 150px;
+    font-size: 1.4rem;
+    background-color: #83d0ffc3;
+    color:#002135 ;
+    border: 2px solid #002135;
+    border-radius: 20px;
+    transition: .5s;
+    margin: 10px;
+}
+.WorkoutForm button:hover{
+    background-color: #002135;
+    color:#83d0ffc3 ;
+    border:  2px solid;
+    cursor: pointer;
+    box-shadow: 3px 3px 10px ;
+    transform: scale(1.05);
+}
+@media (max-width:650px){
+    .WorkoutForm input{
+        width: 250px;
+        font-size: 1rem;
+    }
+    .WorkoutForm textarea{
+        width: 250px;
+    }
+    .WorkoutForm button{
+        height: 35px;
+        width: 130px;
+        font-size: 1.1rem;
+    }
+    .WorkoutForm h1{
+        font-size: 1.4rem;
+    }
+}

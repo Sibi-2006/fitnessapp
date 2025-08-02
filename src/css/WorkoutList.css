@@ -1,0 +1,58 @@
+.workout-list{
+    height: auto;
+    width: 600px;
+    background-color: #000000c5;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px #000;
+    padding: 10px;
+    margin: 10px;
+}
+.workout-list h1,.date,h3{
+    text-shadow: 3px 3px 10px #fff;
+    color: #fff;
+}
+.workout-list .date , p{
+    font-size: 1rem;
+    color: #ffffff;
+}
+.workout-list .workout{
+    color: #fff;
+    
+}
+.workout-list ul{
+    list-style: decimal;
+    color: #c5a6a6;
+
+}
+.delete{
+    background-color: #fd3535;
+    height: 50px;
+    width: 150px;
+    color: #000;
+    border: #000 2px solid;
+    font-size: 1.4rem;
+    transition: .5s;
+    border-radius: 20px;
+    margin: 10px;
+}
+.delete:hover{
+    background-color: #000;
+    color: #fd3535;
+    border: 2px solid #fd3535;
+    cursor: pointer;
+    box-shadow: 3px 3px 10px #fd3535;
+    transform: scale(1.03);
+}
+@media (max-width:650px){
+    .workout-list{
+        width: 300px;
+        margin: 5px 10px;
+        padding:0px 10px;
+    }
+    .delete{
+        height: 35px;
+        width: 130px;
+        font-size: 1rem;
+    }
+}

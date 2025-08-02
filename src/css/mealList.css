@@ -1,0 +1,22 @@
+.foodList{
+    height: auto;
+    width: 600px;
+    background-color: #000000c5;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px #000;
+    padding: 10px;
+    margin: 10px;
+}
+.foodList h3{
+    color: #fff;
+}
+.foodList ul{
+    list-style: decimal;
+    color: #c5a6a6;
+}
+@media (max-width:650px){
+    .foodList{
+        width: 300px;
+    }
+}
